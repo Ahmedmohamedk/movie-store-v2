@@ -1,0 +1,82 @@
+body{
+    background-color: #191d32;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+header{
+    display: flex;
+    margin-top: 0.25in;
+    margin-bottom: 20px;
+    color: rgb(248, 244, 240);
+    font-size: small;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0.75in;
+}
+#sl{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color :white;
+}
+.now{
+    color: #b831de;
+}
+
+#logoname{
+    font-size: larger;
+    margin-left: 0.95in;
+    font-weight: 400;
+}
+
+
+#signup{
+    margin-left: 1in;
+}
+
+/* ================================================================================================================================== */
+#main{
+    margin-bottom: 60px;
+}
+#img{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+
+#movieimg{
+    width: 1100px;
+    height: auto;
+}
+
+#content{
+    width:1100px ;
+    color: white;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+#button{
+    border-radius: 10px;
+    border-width: 0cap;
+    width: 3in;
+    height: 30px;
+    background-color: #b831de;
+    color: white;
+    font-weight: bold;
+    font-family: Quicksand ;
+}
+/* ============================================================================================================================================== */
+#footer{
+    color: white;
+    font-size: small;
+    background-color: #333B55;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 19in;
+    text-align: center;
+}

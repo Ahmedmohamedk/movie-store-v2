@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <title>addmoviepage</title>
+    <link rel="stylesheet" href="../css/addmoviepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <p id="logoname">Watch<b class="now" >Now</b></p>
+        <div id="sl">
+        <a href="home.html" id="login">Home</a>
+        <a href="Profile.html" id="signup">Profile</a>
+        </div>
+    </header>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div id="main">
+    <img src="../images/solidgray.png" id="mimg"/>
+    
+    <div id="formt">
+        <form action="/submit_registration" method="post">
+
+            <label for="Movie title">Movie title</label><br id="fsp"/>
+            <input type="text" name="Movie title" placeholder="  Movie title" id="Movie title" required><br/>
+
+            <label for="synopsis">synopsis</label><br id="fsp"/>
+            <textarea name="text" placeholder=" Enter movie discription" id="synopsis" rows="5" required></textarea><br/>
+
+            <label for="Release year">Release year</label><br id="fsp"/>
+            <input type="text" name="Release year" placeholder="  YYYY" id="Release year" required><br/>
+
+            <label for="Genra">Genra</label><br id="fsp"/>
+            <input type="text" name="Genra" placeholder="  The type of the film , horror , comedy , etc... ." id="genra" required><br/>
+            
+            <label for="Duration">Duration</label><br id="fsp"/>
+            <input type="text" name="Duration" placeholder="  Minutes" id="Duration" required><br/>
+
+            <label for="Director">Director</label><br id="fsp"/>
+            <input type="text" name="Director" placeholder="  Director name" id="Director" required><br/>
+
+            <label for="Cast">Cast</label><br id="fsp"/>
+            <input type="text" name="Cast" placeholder="  Cast name(s)" id="Cast" required><br/>
+
+            <input type="submit" value="Submit" id="button">
+
+        </form>
+    </div>
+</div>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////?     -->
+<div  id="footer"> 
+    <p>All rights reserved @ Watch<b class="now">Now</b></p>
+</div>
+</body>
+</html>

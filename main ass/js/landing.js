@@ -1,0 +1,2 @@
+document.getElementById("logb").addEventListener("click", function() { window.location.href="../html/login.html"; });
+document.getElementById("creb").addEventListener("click", function() { window.location.href="../html/signup.html"; });

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <title>signup</title>
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <p id="logoname">Watch<b class="now" >Now</b></p>
+        <div id="sl">
+        <a href="login.html" id="login">Login</a>
+        <a href="signup.html" id="signup">Sign Up</a>
+        </div>
+    </header>
+    
+<div id="main">
+    <div id="text1">
+        <h1>Creat an account</h1>
+        <p>Welcome to WatchNow</p>
+    </div>
+    <div id="formt">
+        <form action="../js/signup.js" method="post">
+
+            <label for="email">E-mail</label><br id="fsp"/>
+            <input type="email" name="email" placeholder="  example@example.com" id="email" required><br>
+
+            <label for="uname">Username</label><br id="fsp"/>
+            <input type="text" name="uname" placeholder="  Pick a username" id="uname" required><br>
+
+            <label for="password">password</label><br id="fsp"/>
+            <input type="password" name="password" placeholder="  Minimum 8 Characters" id="password" required><br>
+
+            <label for="cpassword">Confirm password</label><br id="fsp"/>
+            <input type="password" name="password" placeholder="  Re-enter your password" id="password" required><br>
+            <input type="submit" value="Submit" id="button">
+        </form>
+        <h2 id="display"></h2>
+    </div>
+</div>
+
+    
+<div  id="footer"> 
+    <p>All rights reserved @ Watch<b class="now">Now</b></p>
+</div>
+<script src="../js/signup.js"></script>
+</body>
+</html>
